@@ -1,12 +1,14 @@
 import React from 'react';
 import FunctionalComp from './ClassAndFunc/FunctionalComp';
 import ClassComp from './ClassAndFunc/ClassComp';
+import State from '../Components/State/State';
+import SetState from './State/SetState';
+
 
 const AllCompo = () => {
     return (
         <div>
-            <FunctionalComp />
-            {/* props */}
+            {/* <FunctionalComp />
             <FunctionalComp name='Ohidul Alam' />
             <FunctionalComp name='Ohidul alam Tasib' />
             <FunctionalComp name='Ohidul alam Tasib' >
@@ -14,11 +16,11 @@ const AllCompo = () => {
             </FunctionalComp>
 
             <ClassComp />
-
-            {/* props */}
             <ClassComp name='Ohidul Alam' />
-            <ClassComp name='Ohidul alam Tasib' />
+            <ClassComp name='Ohidul alam Tasib' /> */}
 
+            {/* <State />
+            <SetState /> */}
         </div>
     );
 };
