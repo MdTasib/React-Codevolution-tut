@@ -1,14 +1,12 @@
 import './App.css';
-import FunctionalComp from './Components/ClassAndFunc/FunctionalComp';
-import ClassComp from './Components/ClassAndFunc/ClassComp';
+import AllCompo from './Components/AllCompo';
 
 
 
 function App() {
   return (
     <div className="App">
-      <FunctionalComp />
-      <ClassComp />
+      <AllCompo />
     </div>
   );
 }
