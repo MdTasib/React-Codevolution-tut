@@ -6,10 +6,13 @@ import SetState from './State/SetState';
 import FunctionClick from './EventHandle/FunctionClick';
 import ClassClick from './EventHandle/ClassClick';
 import EventBind from './EventHandle/EventBind';
+import Parent from './MethodAndProps/Parent';
 
 const AllCompo = () => {
     return (
         <div>
+
+            {/* <Parent /> */}
             {/* <FunctionalComp />
             <FunctionalComp name='Ohidul Alam' />
             <FunctionalComp name='Ohidul alam Tasib' />
@@ -28,7 +31,6 @@ const AllCompo = () => {
             <ClassClick /> */}
 
             {/* <EventBind /> */}
-
         </div>
     );
 };
