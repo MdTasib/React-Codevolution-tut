@@ -25,13 +25,17 @@ import HoverCounterTwo from './RenderProps/HoverCounterTwo';
 import User from './RenderProps/User';
 import ComponentC from './Context/ComponentC';
 import { UserProvider } from './Context/userContext';
+import HTTPGet from './HTTP/HTTPGet';
+import PostForm from './HTTP/PostForm';
 
 const AllCompo = () => {
     return (
         <div>
-            <UserProvider value='Mohammad Tasib'>
+            <PostForm />
+            {/* <HTTPGet /> */}
+            {/* <UserProvider value='Mohammad Tasib'>
                 <ComponentC />
-            </UserProvider>
+            </UserProvider> */}
             {/* <ClickCounterTow />
             <HoverCounterTwo />
             <User render={(isLoggedIn) => isLoggedIn ? 'Tasib' : 'Guest'} /> */}
