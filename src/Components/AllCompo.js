@@ -27,11 +27,21 @@ import ComponentC from './Context/ComponentC';
 import { UserProvider } from './Context/userContext';
 import HTTPGet from './HTTP/HTTPGet';
 import PostForm from './HTTP/PostForm';
+import ClassCounter from './Hooks/useState/ClassCounter';
+import FunctionalCount from './Hooks/useState/FunctionalCount';
+import HookCount from './Hooks/useState/HookCount';
+import HookCounterTwo from './Hooks/useState/HookCounterTwo';
+import HookCountThree from './Hooks/useState/HookCountThree';
 
 const AllCompo = () => {
     return (
         <div>
-            <PostForm />
+            {/* <ClassCounter />
+            <FunctionalCount />
+            <HookCount />
+            <HookCounterTwo />
+            <HookCountThree /> */}
+            {/* <PostForm /> */}
             {/* <HTTPGet /> */}
             {/* <UserProvider value='Mohammad Tasib'>
                 <ComponentC />
