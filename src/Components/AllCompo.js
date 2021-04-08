@@ -17,11 +17,36 @@ import Fragment from './Something/Fragment';
 import RefsDemo from './Refs/RefsDemo';
 import RefsInput from './Refs/Input';
 import Focus from './Refs/Focus';
+import Hero from './ErrorBoundary/Hero';
+import ErrorBoundary from './ErrorBoundary/ErrorBoundary';
+import HoverCounter from './HigerOrder/HoverCounter';
+import ClickCounterTow from './RenderProps/ClickCounter';
+import HoverCounterTwo from './RenderProps/HoverCounterTwo';
+import User from './RenderProps/User';
+import ComponentC from './Context/ComponentC';
+import { UserProvider } from './Context/userContext';
 
 const AllCompo = () => {
     return (
         <div>
-            <Focus />
+            <UserProvider value='Mohammad Tasib'>
+                <ComponentC />
+            </UserProvider>
+            {/* <ClickCounterTow />
+            <HoverCounterTwo />
+            <User render={(isLoggedIn) => isLoggedIn ? 'Tasib' : 'Guest'} /> */}
+            {/* <ClickCounter name='Tasib' />
+            <HoverCounter /> */}
+            {/* <ErrorBoundary>
+                <Hero heroName='Superman' />
+            </ErrorBoundary>
+            <ErrorBoundary>
+                <Hero heroName='Batman' />
+            </ErrorBoundary>
+            <ErrorBoundary>
+                <Hero heroName='joker' />
+            </ErrorBoundary> */}
+            {/* <Focus /> */}
             {/* <RefsDemo /> */}
             {/* <Fragment /> */}
             {/* <Form /> */}
