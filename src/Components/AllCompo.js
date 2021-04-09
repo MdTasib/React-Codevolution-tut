@@ -34,11 +34,13 @@ import HookCounterTwo from './Hooks/useState/HookCounterTwo';
 import HookCountThree from './Hooks/useState/HookCountThree';
 import HookCounterOne from './Hooks/useEffect/HookCounterOne';
 import Mouse from './Hooks/useEffect/Mouse';
+import MouseCounter from './Hooks/useEffect/MouseCounter';
 
 const AllCompo = () => {
     return (
         <div>
-            <Mouse />
+            {/* <MouseCounter /> */}
+            {/* <Mouse /> */}
             {/* <HookCounterOne /> */}
             {/* <ClassCounter />
             <FunctionalCount />
