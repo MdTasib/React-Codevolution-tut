@@ -38,11 +38,15 @@ import MouseCounter from './Hooks/useEffect/MouseCounter';
 import IntervalHookCounter from './Hooks/useEffect/IntervalHookCounter';
 import DataFetching from './Hooks/useEffect/DataFetching';
 import UniqueDataLoad from './Hooks/useEffect/UniqueDataLoad';
+import CounterOne from './Hooks/useReducer/CounterOne';
+import CounterTwo from './Hooks/useReducer/CounterTwo';
 
 const AllCompo = () => {
     return (
         <div>
-            <UniqueDataLoad />
+            <CounterOne />
+            <CounterTwo />
+            {/* <UniqueDataLoad /> */}
             {/* <DataFetching /> */}
             {/* <IntervalHookCounter /> */}
             {/* <MouseCounter /> */}
