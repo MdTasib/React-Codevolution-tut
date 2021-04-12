@@ -42,10 +42,14 @@ import CounterOne from './Hooks/useReducer/CounterOne';
 import CounterTwo from './Hooks/useReducer/CounterTwo';
 import CounterThree from './Hooks/useReducer/CounterThree';
 import UseReducerWithuseContext from './Hooks/useReducer/useReducerWithuseContext';
+import DataFetchingOne from './Hooks/useReducer/DataFetchingOne';
+import DataFetchingTwo from './Hooks/useReducer/DataFetchingTwo';
 
 const AllCompo = () => {
     return (
         <div>
+            <DataFetchingTwo />
+            {/* <DataFetchingOne /> */}
             {/* <UseReducerWithuseContext /> */}
             {/* <CounterOne />
             <CounterTwo />
