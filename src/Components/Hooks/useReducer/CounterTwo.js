@@ -26,6 +26,7 @@ function CounterTwo() {
 
     return (
         <div>
+            <h1>Counter Two</h1>
             <div>First Count - {count.firstCount}</div>
             <div>Second Count - {count.secondCount}</div>
             <button onClick={() => dispatch({ type: 'increment', value: 1 })}>Increment</button>

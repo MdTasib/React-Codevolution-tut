@@ -40,12 +40,16 @@ import DataFetching from './Hooks/useEffect/DataFetching';
 import UniqueDataLoad from './Hooks/useEffect/UniqueDataLoad';
 import CounterOne from './Hooks/useReducer/CounterOne';
 import CounterTwo from './Hooks/useReducer/CounterTwo';
+import CounterThree from './Hooks/useReducer/CounterThree';
+import UseReducerWithuseContext from './Hooks/useReducer/useReducerWithuseContext';
 
 const AllCompo = () => {
     return (
         <div>
-            <CounterOne />
+            {/* <UseReducerWithuseContext /> */}
+            {/* <CounterOne />
             <CounterTwo />
+            <CounterThree /> */}
             {/* <UniqueDataLoad /> */}
             {/* <DataFetching /> */}
             {/* <IntervalHookCounter /> */}
