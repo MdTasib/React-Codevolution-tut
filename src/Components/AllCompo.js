@@ -44,11 +44,13 @@ import CounterThree from './Hooks/useReducer/CounterThree';
 import UseReducerWithuseContext from './Hooks/useReducer/useReducerWithuseContext';
 import DataFetchingOne from './Hooks/useReducer/DataFetchingOne';
 import DataFetchingTwo from './Hooks/useReducer/DataFetchingTwo';
+import ParentComponent from './Hooks/useCallback/ParentComponent';
 
 const AllCompo = () => {
     return (
         <div>
-            <DataFetchingTwo />
+            <ParentComponent />
+            {/* <DataFetchingTwo /> */}
             {/* <DataFetchingOne /> */}
             {/* <UseReducerWithuseContext /> */}
             {/* <CounterOne />
