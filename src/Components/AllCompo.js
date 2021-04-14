@@ -46,11 +46,13 @@ import DataFetchingOne from './Hooks/useReducer/DataFetchingOne';
 import DataFetchingTwo from './Hooks/useReducer/DataFetchingTwo';
 import ParentComponent from './Hooks/useCallback/ParentComponent';
 import Counter from './Hooks/useMemo/Counter';
+import FocusInput from './Hooks/useRef/FocusInput';
 
 const AllCompo = () => {
     return (
         <div>
-            <Counter />
+            <FocusInput />
+            {/* <Counter /> */}
             {/* <ParentComponent /> */}
             {/* <DataFetchingTwo /> */}
             {/* <DataFetchingOne /> */}
