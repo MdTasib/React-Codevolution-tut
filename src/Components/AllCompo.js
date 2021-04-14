@@ -45,11 +45,13 @@ import UseReducerWithuseContext from './Hooks/useReducer/useReducerWithuseContex
 import DataFetchingOne from './Hooks/useReducer/DataFetchingOne';
 import DataFetchingTwo from './Hooks/useReducer/DataFetchingTwo';
 import ParentComponent from './Hooks/useCallback/ParentComponent';
+import Counter from './Hooks/useMemo/Counter';
 
 const AllCompo = () => {
     return (
         <div>
-            <ParentComponent />
+            <Counter />
+            {/* <ParentComponent /> */}
             {/* <DataFetchingTwo /> */}
             {/* <DataFetchingOne /> */}
             {/* <UseReducerWithuseContext /> */}
