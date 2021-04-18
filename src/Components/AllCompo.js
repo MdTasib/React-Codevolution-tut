@@ -47,11 +47,17 @@ import DataFetchingTwo from './Hooks/useReducer/DataFetchingTwo';
 import ParentComponent from './Hooks/useCallback/ParentComponent';
 import Counter from './Hooks/useMemo/Counter';
 import FocusInput from './Hooks/useRef/FocusInput';
+import LineChart from './Chart/LineChart';
+import BarChart from './Chart/BarChart';
+import DoughnutChart from './Chart/DoughnutChart';
 
 const AllCompo = () => {
     return (
         <div>
-            <FocusInput />
+            <LineChart />
+            <BarChart />
+            <DoughnutChart />
+            {/* <FocusInput /> */}
             {/* <Counter /> */}
             {/* <ParentComponent /> */}
             {/* <DataFetchingTwo /> */}
