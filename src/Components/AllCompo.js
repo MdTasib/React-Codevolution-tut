@@ -51,6 +51,7 @@ import LineChart from './Chart/LineChart';
 import BarChart from './Chart/BarChart';
 import DoughnutChart from './Chart/DoughnutChart';
 import Main from './Route/Main';
+import CountrysRoute from './Route/Countrys/Index';
 
 const AllCompo = () => {
     return (
@@ -125,7 +126,9 @@ const AllCompo = () => {
 
             {/* <EventBind /> */}
 
-            <Main />
+            {/* <Main /> */}
+
+            <CountrysRoute />
         </div>
     );
 };
