@@ -50,13 +50,14 @@ import FocusInput from './Hooks/useRef/FocusInput';
 import LineChart from './Chart/LineChart';
 import BarChart from './Chart/BarChart';
 import DoughnutChart from './Chart/DoughnutChart';
+import Main from './Route/Main';
 
 const AllCompo = () => {
     return (
         <div>
-            <LineChart />
+            {/* <LineChart />
             <BarChart />
-            <DoughnutChart />
+            <DoughnutChart /> */}
             {/* <FocusInput /> */}
             {/* <Counter /> */}
             {/* <ParentComponent /> */}
@@ -123,6 +124,8 @@ const AllCompo = () => {
             <ClassClick /> */}
 
             {/* <EventBind /> */}
+
+            <Main />
         </div>
     );
 };
