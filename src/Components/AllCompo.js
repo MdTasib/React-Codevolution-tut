@@ -52,6 +52,7 @@ import BarChart from './Chart/BarChart';
 import DoughnutChart from './Chart/DoughnutChart';
 import Main from './Route/Main';
 import CountrysRoute from './Route/Countrys/Index';
+import Context from './Context/ContextAPI/Context';
 
 const AllCompo = () => {
     return (
@@ -128,7 +129,9 @@ const AllCompo = () => {
 
             {/* <Main /> */}
 
-            <CountrysRoute />
+            {/* <CountrysRoute /> */}
+
+            <Context />
         </div>
     );
 };
